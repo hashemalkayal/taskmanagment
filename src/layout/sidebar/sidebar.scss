@@ -1,0 +1,23 @@
+.Sidebar {
+    height: 100vh;
+    width: 313px;
+    background-color: #fafafa;
+
+    .view-countiner {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        padding-top: 4rem;
+        .header-view {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 207px;
+                height: 100px;
+            }
+        }
+    }
+}

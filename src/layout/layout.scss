@@ -1,0 +1,32 @@
+.Layout-coutniner {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    background-color: #ffffff;
+
+    .child-coutniner {
+        flex: 1;
+        background-color: #ffffff;
+        position: relative;
+
+        .color-red-circle {
+            width: 21rem;
+            height: 671.5px;
+            position: absolute;
+            right: 0;
+            top: 165px;
+            background-repeat: no-repeat;
+            background-image: url(../assets/images/redCirc.svg);
+        }
+
+        .color-yellow-circle {
+            position: absolute;
+            width: 622.72px;
+            height: 15rem;
+            bottom: 0;
+            right: 10%;
+            background-repeat: no-repeat;
+            background-image: url(../assets/images/yellowCirc.svg);
+        }
+    }
+}
